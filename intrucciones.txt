@@ -1,0 +1,35 @@
+----PARA JS----   //node.js
+
+instalo paquete para facebook
+//documentacion
+https://www.npmjs.com/package/fb
+npm i fb
+
+consigo token
+http://maxbots.ddns.net/token/
+
+codigo words
+para etso voy a usar una libreria llamada moniker, ya que tiene diccionharois que separa entre adjetivos verbos
+//documentacion
+https://www.npmjs.com/package/moniker
+
+correr 
+//para probar que todo funcione
+node bot.js   
+
+
+
+
+
+//para que este programado a cierta hora - PROX: BUSCAR CODIOGO NPM AUTOMTIZAR 
+abro el task scheduler o programador de tareas, agrego una nueva tarea basica
+programos el nombre, que sea diario, y la hora a la cual queiro que corra (la computadura tiene que estar
+prendida en este momento para que el codigo corra) y ponemos 
+en program scrpti: node
+add arguments: la ruta de carpeta mas el archivo js (ej: C:\\Users\user\folder\script.js)
+
+
+
+
+
+

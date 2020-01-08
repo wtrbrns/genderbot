@@ -1,0 +1,20 @@
+{
+  "name": "genderbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "facebook",
+    "bot",
+    "gender"
+  ],
+  "author": "overmoon",
+  "license": "ISC",
+  "dependencies": {
+    "fb": "^2.0.0",
+    "moniker": "^0.1.2"
+  },
+  "description": "fb bot that posts random genders"
+}
