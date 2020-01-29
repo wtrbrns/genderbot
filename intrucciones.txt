@@ -1,17 +1,26 @@
 ----PARA JS----   //node.js
 
-instalo paquete para facebook
+*instalo paquetes para facebook
+instalo este para que haga el tema del id y del token
 //documentacion
-https://www.npmjs.com/package/fb
-npm i fb
+https://www.npmjs.com/package/@alpha-manager/fb
+//PROX DEBERIA ESTAR ESCONDIDO
+npm i --s @alpha-manager/fb
+e intalo este para que maneje cada el tiempo determinado
+//documentacion
+https://www.npmjs.com/package/@alpha-manager/core
+npm i --s @alpha-manager/core
 
-consigo token
+*consigo token de painmtadmoin
 http://maxbots.ddns.net/token/
+cuando ya tengo la url copiada sigo los pasitos de la paginuta
 
-codigo words
+*codigo words
 para etso voy a usar una libreria llamada moniker, ya que tiene diccionharois que separa entre adjetivos verbos
 //documentacion
 https://www.npmjs.com/package/moniker
+//PROX: capaz se podria hacer que las palabras son bolsas dadas por los usuarios 
+ej yo te digo 6 adjetivos y los adjjetivos los saca de esa bolsa y que sean en su amyoria recomendaciones
 
 correr 
 //para probar que todo funcione
@@ -21,15 +30,5 @@ node bot.js
 
 
 
-//para que este programado a cierta hora - PROX: BUSCAR CODIOGO NPM AUTOMTIZAR 
-abro el task scheduler o programador de tareas, agrego una nueva tarea basica
-programos el nombre, que sea diario, y la hora a la cual queiro que corra (la computadura tiene que estar
-prendida en este momento para que el codigo corra) y ponemos 
-en program scrpti: node
-add arguments: la ruta de carpeta mas el archivo js (ej: C:\\Users\user\folder\script.js)
-
-
-
-
-
-
+//SI NO HAY GANAS DE USAR EL CODIGO AUTOMATIZADO Y EN VEZ DE ESO QUERES USAR 
+//EL TASK MANAGER ESTA LA VERSION VIEJA DE ESTE CODIGO MAS LA VERSION VIEJA DE LAS INSTRUCCIONES
